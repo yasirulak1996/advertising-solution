@@ -1,0 +1,78 @@
+#id1{ 
+    text-align: center;
+    color: #deee06;
+    font-size: 16px;
+}
+#id2 {font-family: Arial, sans-serif;
+    background-color: #ffeaea;
+    padding: 50px 50px;
+   
+    
+} 
+
+.header {
+    background-color: #28b653;
+    color: rgb(161, 37, 37);
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    height: 80px;
+}
+.header-topic {
+    font-size: 36px;
+    font-weight: bold;
+}
+.sliding-text {
+    font-size: 24px;
+    color: #2d11ac;
+    animation: slide 10s linear infinite;
+    display: inline-block;
+    white-space: nowrap;
+}
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.button{
+   
+        display: inline-block;
+        padding: 5px 5px;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;}
+        
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
